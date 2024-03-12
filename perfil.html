@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: aquamarine;
+            font-family: Arial, Helvetica, sans-serif;
+            color:rgb(rgb(167, 61, 61), green, blue);
+            text-align: center;
+        }
+        .perfil{
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+            background-color: rgb(rgb(152, 153, 64), rgb(122, 206, 122), rgba(163, 99, 62, 0.027));
+            padding: 20px;
+            box-shadow: 0 10px 10px #000;
+
+        }
+.foto-perfil{
+    width: 250px;
+    height: auto;
+    border-radius: 40%;
+    margin: 0 auto;
+    display: block;
+
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+
+    </style>
+      <div style="margin: 24;"> 
+    <nav class="nav navbar-light"
+    style="background-color: blue;">
+    
+       <div class="container">
+        <a class="nav-brand" href="index.html" style="font-family: 'ADLaM Display', sans-serif; color: rgb(0, 0, 0);">Inicio</a>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="nav navbar-nav">
+                <li class="nav-item dropdown">
+                  
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: 'ADLaM Display', sans-serif; color: black;">unidad 1</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="perfil.html">Perfil</a><br>
+                        <a class="dropdown-item" href="calculadora.html">Calculadora</a><br>
+                        <a class="dropdown-item" href="tienda.html">Restaurante</a>
+                      </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: 'ADLaM Display', sans-serif; color: black;">unidad 2</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="tiendapedido1.html">Tienda Pedido 1</a><br>
+                        <a class="dropdown-item" href="json.html">Json</a><br>
+                        <a class="dropdown-item" href="tiendapedido2.html">Tienda Pedido 2</a>
+                      </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: 'ADLaM Display', sans-serif; color: black;">unidad 3</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="basededatos.html">Base de Datos</a><br>
+                        <a class="dropdown-item" href="peliculas.html">Peliculas</a>
+                      </div>
+                </li>
+            </ul>
+          </div>
+       </div>
+    </nav>
+</div>
+    <div class="perfil">
+        <img src="img/perfil.jpg" alt="" class="foto-perfil">
+        <h1 id="nombre">Nombre</h1>
+        <p id="formacion">Formacion Academica</p>
+<h2>Gustos</h2>
+<ul>
+    <li id="musica">Musica favorita</li>
+    <li id="pasatiempos">Pasatiempos</li>
+    <li id="tv">Programas de television favoritos</li>
+</ul>        
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+document.getElementById('nombre').
+textContent='Ivan Hernandez';
+document.getElementById('formacion').
+textContent='Preparatoria';
+document.getElementById('musica').
+textContent='rap,hip hop,corridos tumbados';
+document.getElementById('pasatiempos').
+textContent='jugar voleibol';
+document.getElementById('tv').
+textContent='Bleach y Jujutsu kaisen';
+});
+    </script>
+</body>
+</html>
