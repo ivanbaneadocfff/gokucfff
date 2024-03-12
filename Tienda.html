@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<title>menu</title>
+
+</head>
+<body>
+<div style="margin :24px;">
+    <nav class="nav navbar-light" style ="background-color: rgb(226, 248, 53);"> 
+        <div class="container">
+            <a class="navbar-brand" href="index.html" style="color:rgb(189, 189, 189);">Inicio</a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="nav navbar-nav">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Unidad 1</a>
+                        <div class="dropdown-menu"
+                        aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item"
+                    href="perfil.html">Perfil</a><br>
+                    <a class="dropdown-item"
+                    href="calculadora.html">Calculadora</a><br>
+                    <a class="dropdown-item"
+                    href="tienda.html">Tienda</a>
+
+                    </div>
+                        
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false" >Unidad 2</a>
+                        <div class="dropdown-menu"
+                        aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item"
+                    href="tiendapedido.html"></a><br>
+                    <a class="dropdown-item"
+                    href="json.html"></a><br>
+                    <a class="dropdown-item"
+                    href="tiendapedido2.html"></a>
+
+                    </div>
+                        
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false" >Unidad 3</a>
+                        <div class="dropdown-menu"
+                        aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item"
+                     class="dropdown-item"
+                    href="basededatos.html"></a><br>
+                    <a class="dropdown-item"
+                    href="peliculas.html"></a>
+
+                    </div>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</div><h1>Menu del restaurante</h1>
+<style>
+img{
+width: 100px;
+height: auto;
+} 
+table, th,td{
+  border: 1px solid rgb(255, 98, 0);
+  text-align: left;
+  padding: 10px;
+}
+table{
+  width: 80%;
+  margin: 20px;
+  border-collapse: collapse;
+  box-shadow: 0 5px 15px rgb(231, 96, 18);
+  margin-left: 50px;
+}
+tr:nth-child(even){
+  background-color: rgb(217, 130, 9);
+}
+tr:nth-child(odd){
+  background-color: white;
+}
+tr:hover{
+  background-color: white;
+  }
+  </style>
+<h1>Bebidas</h1>
+<table>
+<tr>
+<th>Imagen</th>
+<th>Descripcion</th>
+<th>Precio</th>
+</tr>
+<tr>
+<td>
+  <img src="img/agua.jpg" alt="Agua"></td>
+  <td><p>Agua </p></td>
+  <td>$20-750ml</td>
+</tr>
+<tr>
+  <td><img src="img/aguasdesabor.jpg" alt="Aguas Frescas"></td>
+  <td><p>Aguas frescas de sandia, tamarindo, limon, jamaica, y pina </p></td>
+  <td>$25-700ml</td>
+</tr>
+<tr>
+  <td><img src="img/licuados.jpg" alt="Licuados"></td>
+  <td><p>Licuados de chocolate, vainilla, fresa, oreo, y cremoso </p></td>
+  <td>$25.00-1L</td>
+</tr>
+<tr>
+  <td><img src="img/cerveza.jpg" alt="Cerveza"></td>
+  <td><p>Pura corona pa los mirreys</p></td>
+  <td>$35.00-400ml</td>
+</tr>
+<tr>
+  <td><img src="img/cafe.jpg" alt="cafe"></td>
+  <td><p>Cafe Negro como los haitianos</p></td>
+  <td>$25.00-1tz</td>
+</tr>
+<tr>
+  <td><img src="img/tes.jpg" alt="Te"></td>
+  <td><p> Te de manzanilla, canela entre otros</p></td>
+  <td>$20.00-1tz</td>
+</tr>
+</table>
+<h1>Desayunos</h1>
+<table>
+<tr>
+  <th>Imagen</th>
+  <th>Descripcion</th>
+  <th>Precio</th>
+</tr>
+<tr>
+  <td><img src="img/omelette.jpg" alt="Omelette"></td>
+  <td><p>omelet</p></td>
+  <td>$35</td>
+</tr>
+<tr>
+  <td><img src="img/huevosrancheros.jpeg" alt="Huevos rancheros"></td>
+  <td><p>Huevos rancheras bien buenos  </p></td>
+  <td>$40</td>
+</tr>
+<tr>
+  <td><img src="img/hot cakes.jpeg" alt="Hot-Cakes"></td>
+  <td><p>hot cakes con su respectiva miel y lechera </p></td>
+  <td>$35</td>
+</tr>
+<tr>
+  <td><img src="img/quesadillas.jpeg" alt="Quesadilas"></td>
+  <td><p> ricas quesadillas de queso oaxaca con lechuga y tomate </p></td>
+  <td>$35</td>
+</tr>
+<tr>
+  <td><img src="img/tostadas.jpeg" alt="tostadas"></td>
+  <td><p>Tosatadas con carne desebrada, lechuga y tomate y crema y queso </p></td>
+  <td>$40</td>
+</tr>
+<tr>
+  <td><img src="img/ensalada de frutas.jpeg" alt="ensalada"></td>
+  <td><p> Ensalada de freutas con manzana,pina,naranja entre otros </p></td>
+  <td>$30</td>
+  </tr> 
+</table>
+      <h1>Platillos fuerte</h1>
+      <table>
+          <tr>
+              <th>Imagen</th>
+              <th>Descripcion</th>
+              <th>Precio</th>
+          </tr>
+          <tr>
+              <td>
+                  <img src="img/pollo a la mostaza.jpeg" alt="Pollo a la mostaza"></td>
+                  <td><p>rico pollo</p></td>
+                  <td>$50</td>
+              </tr>
+              <tr>
+                  <td>
+                      <img src="img/camarones a la diabla.jpeg" alt="camarones"></td>
+
+                      <td><p>Camarones bien picante pa q te pique hasta lo que no</p></td>
+                      <td>$75</td>
+                  </tr>
+                  <tr>
+                      <td><img src="img/salmon ala plancha.jpeg" alt="Salmon a la Plancha"></td>
+                      <td><p> Salmon termino al gusto del cliente</p></td>
+                      <td>$80</td>
+                  </tr>
+                  <tr>
+                      <td><img src="img/carne asada.jpeg" alt="Carne asada"></td>
+                      <td><p> Carne asada bien buena con su cebollita asada y mas</p></td>
+                      <td>$70</td>
+                      <tr>
+                          <td><img src="img/Tacos barbacoa.jpeg" alt="Tacos de barbacoa"></td>
+                          <td><p>Taquitos bien ricos y jugosos</p></td>
+                          <td>$70-La orden</td>
+                      </tr>
+                      <tr>
+                          <td><img src="img/pizza.jpeg" alt="Pizza"></td>
+                          <td><p> Pizza de peperoni extra grnade de sarten</p></td>
+                          <td>$90</td>
+                      </tr>
+                  </table>
+                  <h1>bocadillos</h1>
+                  <table>
+                      <tr>
+                          <th>Imagen</th>
+                          <th>Descripcion</th>
+                          <th>Precio</th>
+                      </tr>
+                      <tr>
+                          <td>
+                              <img src="img/papas.jpeg" alt="Papas fritas"></td>
+                              <td><p>papas a la francesa</p></td>
+                              <td>$40</td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <img src="img/albondigas.jpeg" alt="Albondigas"></td>
+                                  <td><p>albondigas jugosas</p></td>
+                                  <td>$45</td>
+                              </tr>
+                              <tr>
+                                  <td><img src="img/guacamole.jpeg" alt="Guacamole con totopos"></td>
+                                  <td><p>guacamole con sus respectivos totopos</p></td>
+                                  <td>$35</td>
+                              </tr>
+                              <tr>
+                                  <td><img src="img/papa asada.jpeg" alt="Papa asada"></td>
+                                  <td><p> Papita asada con carne o sola con crema y queso y mantequilla </p></td>
+                                  <td>$45</td>
+                                  <tr>
+                                      <td><img src="img/nuggets.jpeg" alt="Nuggets"></td>
+                                      <td><p>ricos nugets del mac donals</p></td>
+                                      <td>$45</td>
+                                  </tr>
+                                  <tr>
+                                      <td><img src="img/brochetas.jpeg" alt="Brochetas de frutas"></td>
+                                      <td><p> aperitivos de frutas</p></td>
+                                      <td>$40</td>
+                                  </tr>
+                              </table>
+                              <h1>postres</h1>
+                              <table>
+                                  <tr>
+                                      <th>Imagen</th>
+                                      <th>Descripcion</th>
+                                      <th>Precio</th>
+                                  </tr>
+                                  <tr>
+                                      <td><img src="img/chocoflan.jpeg" alt="Chocoflan"></td>
+                                          <td><p>chocoflan</p></td>
+                                          <td>$45</td>
+                                      </tr>
+                                      <tr>
+                                          <td><img src="img/carlota.jpeg" alt="Carlota"></td>
+                                          <td><p>carlota con galleta maria original y de diferentes sabores</p></td>
+                                          <td>$35</td>
+                                      </tr>
+                                      <tr>
+                                          <td><img src="img/pay.jpeg" alt="Pay de Limon"></td>
+                                          <td><p> Pay de limon bien amargo pq es de limon </p></td>
+                                          <td>$35</td>
+                                      </tr>
+                                      <tr>
+                                          <td><img src="img/fcc.jpeg" alt="Fresas con crema"></td>
+                                          <td><p> Fresas con crema de dona vicky receta facil </p></td>
+                                          <td>$35</td>
+                                      </tr>
+                                      <tr>
+                                          <td><img src="img/gelatina.jpeg" alt="Gelatina"></td>
+                                          <td><p>Gelatinas de muchos sabores </p></td>
+                                          <td>$30</td>
+                                      </tr>
+                                      <tr>
+                                          <td><img src="img/helado.jpeg" alt="Helado"></td>
+                                          <td><p>Nievecita de fresa chocolate o vainilla </p></td>
+                                          <td>$25</td>
+                                      </tr> 
+                                  </table>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
