@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+<title>menu</title>
+
+</head>
+<body>
+<div style="margin :24px;">
+    <nav class="nav navbar-light" style ="background-color: rgb(226, 248, 53);"> 
+        <div class="container">
+            <a class="navbar-brand" href="index.html" style="color:rgb(189, 189, 189);">Inicio</a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="nav navbar-nav">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Unidad 1</a>
+                        <div class="dropdown-menu"
+                        aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item"
+                    href="perfil.html">Perfil</a><br>
+                    <a class="dropdown-item"
+                    href="calculadora.html">Calculadora</a><br>
+                    <a class="dropdown-item"
+                    href="tienda.html">Tienda</a>
+
+                    </div>
+                        
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false" >Unidad 2</a>
+                        <div class="dropdown-menu"
+                        aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item"
+                    href="tiendapedido.html"></a><br>
+                    <a class="dropdown-item"
+                    href="json.html"></a><br>
+                    <a class="dropdown-item"
+                    href="tiendapedido2.html"></a>
+
+                    </div>
+                        
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false" >Unidad 3</a>
+                        <div class="dropdown-menu"
+                        aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item"
+                     class="dropdown-item"
+                    href="basededatos.html"></a><br>
+                    <a class="dropdown-item"
+                    href="peliculas.html"></a>
+
+                    </div>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <style>
+            body , html{
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 800px;
+                height: 600px;
+
+            }
+            .banner{
+                position: relative;
+                width: 100%;
+                height: 100%;
+                background: url('imagen/fondo.jpg') no-repeat center center/cover;
+            }
+
+            .texto-presentacion{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+                text-align: center;
+            }
+            #cuadrado{
+                width: 300px;
+                height: 300px;
+                background-color: black;
+                position: relative;
+            }
+            #rectangulo{
+                width: 400px;
+                height: 600px;
+                background-color: rgb(199, 211, 211);
+                position: absolute;
+
+            }
+            #triangulo{
+                width: 0;
+                height: 0;
+                border-left: 50px solid transparent;
+                border-right: 50px solid transparent;
+                border-bottom: 10px solid black;
+                position: relative;
+            }
+            .huevo{
+                display: block;
+                width: 80px;
+                height: 130px;
+                background-color: white;
+                border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            }
+        </style>
+
+        <div class="banner">
+            <div class="texto-presentacion">
+            <h1>Hola que tal, Bienvenido a la Unidad 2</h1>
+            <p>Un programador que no vale vrga y q tiene ganas de matarse:3</p>
+            <h3>Jose Ivan Hernandez Antonio</h3>
+        </div>
+        <div class="rectangulo"></div>
+        <div class="cuadrado" style="left: 50px; top: 150px;"></div>
+        <div class="triangulo" style="left: 50px; top: -200px;"></div>
+        <div class="triangulo" style="left: 280px; top: -275px;"></div>
+        <div class="triangulo" style="border-bottom: 80px solid white;  left: 280px; top: -150px; transform: rotate(180deg);"></div>
+        <div class="huevo" style="left: 100px; top: -310px;"></div>
+        <div class="huevo" style="left: 250px; top: -415px;"></div>
+
+            </div>
+        
+    </body>
+     </html>
