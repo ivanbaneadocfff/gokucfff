@@ -143,9 +143,9 @@
         <style>
             .cuadrados{
                 width: 200px;
-                height: 200px;
+                height: 300px;
                 background-color: aqua;
-                border-radius: 20%;
+                border-radius: 10%;
                 border-style: ridge;
             
             }
@@ -161,24 +161,38 @@
                 margin-left: auto;
                 margin-right: auto;
             }
+            .container{
+                position: relative;
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-tracks: start;
+            }
         </style>
 
-        <div class="cuadrado" style="left: 100px;"
-            <img src="img/cerveza.jpg" class="imagenespaginas">
-            <a href="menu.html">primera pagina</a>
+        <div class="container">
+            <div class="cuadrados" style="left: 100px;">
+                <img src="img/pagina1.jpg" class="imagenespaginas">
+                <a href="menu.html" style="text-align: center; display: block;">Primera pagina</a>
+                <p class="parrafo">Esta es la pagina donde el menu solo es una tabla.</p>
+            </div>
+
+        <div class="cuadrado" style="left: 100px;">
+            <img src="img/pagina1.jpg" class="imagenespaginas"><br>
+            <a href="menu.html" style="text-align: center;display: block;">primera pagina</a><br>
             <p class="parrafo">Esta es la pagina donde el menu solo es una tabla</p>
         </div>
-        <div class="cuadrado" style="left: 400px;"
-            <img src="img/hot cakes.jpeg" class="imagenespaginas">
-            <a href="menu.html">primera pagina</a>
+        <div class="cuadrado" style="left: 400px;">
+            <img src="img/tes.jpg" class="imagenespaginas"><br>
+            <a href="menu.html">primera pagina</a><br>
             <p class="parrafo">Esta es la pagina donde el menu solo es una tabla</p>
         </div>
-        <div class="cuadrado" style="left: 700px;"
-            <img src="img/chocoflan.jpeg" class="imagenespaginas">
-            <a href="menu.html">primera pagina</a>
+        <div class="cuadrado" style="left: 700px;">
+            <img src="img/chocoflan.jpeg" class="imagenespaginas"><br>
+            <a href="menu.html">primera pagina</a><br>
             <p class="parrafo">Esta es la pagina donde el menu solo es una tabla</p>
         </div>
-        
+           </div>
         </div>
         <div class="dibujo">
         <div class="rectangulo"></div>
