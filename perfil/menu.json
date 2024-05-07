@@ -1,0 +1,209 @@
+{
+"items":[
+      {
+        "category": "Bebidas",
+        "items": [
+          {
+            "name": "Agua",
+            "description": "Agua",
+            "price": "$20-750ml",
+            "image": "img/agua.jpg"
+          },
+          {
+            "name": "Aguas frescas",
+            "description": "Aguas frescas de sandia, tamarindo, limon, jamaica, y pina",
+            "price": "$25-700ml",
+            "image": "img/aguasdesabor.jpg"
+          },
+          {
+            "name": "Licuados",
+            "description": "Licuados de chocolate, vainilla, fresa, oreo, y cremoso",
+            "price": "$25.00-1L",
+            "image": "img/licuados.jpg"
+          },
+          {
+            "name": "Cerveza",
+            "description": "Pura corona pa los mirreys",
+            "price": "$35.00-400ml",
+            "image": "img/cerveza.jpg"
+          },
+          {
+            "name": "Cafe",
+            "description": "Cafe Negro como los haitianos",
+            "price": "$25.00-1tz",
+            "image": "img/cafe.jpg"
+          },
+          {
+            "name": "Te",
+            "description": "Te de manzanilla, canela entre otros",
+            "price": "$20.00-1tz",
+            "image": "img/tes.jpg"
+          }
+        ]
+      },
+      {
+        "category": "Desayunos",
+        "items": [
+          {
+            "name": "Omelette",
+            "description": "omelet",
+            "price": "$35",
+            "image": "img/omelette.jpg"
+          },
+          {
+            "name": "Huevos rancheros",
+            "description": "Huevos rancheras bien buenos",
+            "price": "$40",
+            "image": "img/huevosrancheros.jpeg"
+          },
+          {
+            "name": "Hot-Cakes",
+            "description": "hot cakes con su respectiva miel y lechera",
+            "price": "$35",
+            "image": "img/hot%20cakes.jpeg"
+          },
+          {
+            "name": "Quesadillas",
+            "description": "ricas quesadillas de queso oaxaca con lechuga y tomate",
+            "price": "$35",
+            "image": "img/quesadillas.jpeg"
+          },
+          {
+            "name": "Tostadas",
+            "description": "Tosatadas con carne desebrada, lechuga y tomate y crema y queso",
+            "price": "$40",
+            "image": "img/tostadas.jpeg"
+          },
+          {
+            "name": "Ensalada de frutas",
+            "description": "Ensalada de freutas con manzana,pina,naranja entre otros",
+            "price": "$30",
+            "image": "img/ensalada%20de%20frutas.jpeg"
+          }
+        ]
+      },
+      {
+        "category": "Platillos fuerte",
+        "items": [
+          {
+            "name": "Pollo a la mostaza",
+            "description": "rico pollo",
+            "price": "$50",
+            "image": "img/pollo%20a%20la%20mostaza.jpeg"
+          },
+          {
+            "name": "Camarones a la diabla",
+            "description": "Camarones bien picante pa q te pique hasta lo que no",
+            "price": "$75",
+            "image": "img/camarones%20a%20la%20diabla.jpeg"
+          },
+          {
+            "name": "Salmon a la Plancha",
+            "description": " Salmon termino al gusto del cliente",
+            "price": "$80",
+            "image": "img/salmon%20ala%20plancha.jpeg"
+          },
+          {
+            "name": "Carne asada",
+            "description": " Carne asada bien buena con su cebollita asada y mas",
+            "price": "$70",
+            "image": "img/carne%20asada.jpeg"
+          },
+          {
+            "name": "Tacos de barbacoa",
+            "description": "Taquitos bien ricos y jugosos",
+            "price": "$70-La orden",
+            "image": "img/Tacos%20barbacoa.jpeg"
+          },
+          {
+            "name": "Pizza",
+            "description": " Pizza de peperoni extra grnade de sarten",
+            "price": "$90",
+            "image": "img/pizza.jpeg"
+          }
+        ]
+      },
+      {
+        "category": "bocadillos",
+        "items": [
+          {
+            "name": "Papas fritas",
+            "description": "papas a la francesa",
+            "price": "$40",
+            "image": "img/papas.jpeg"
+          },
+          {
+            "name": "Albondigas",
+            "description": "albondigas jugosas",
+            "price": "$45",
+            "image": "img/albondigas.jpeg"
+          },
+          {
+            "name": "Guacamole con totopos",
+            "description": "guacamole con sus respectivos totopos",
+            "price": "$35",
+            "image": "img/guacamole.jpeg"
+          },
+          {
+            "name": "Papa asada",
+            "description": " Papita asada con carne o sola con crema y queso y mantequilla ",
+            "price": "$45",
+            "image": "img/papa%20asada.jpeg"
+          },
+          {
+            "name": "Nuggets",
+            "description": "ricos nugets del mac donals",
+            "price": "$45",
+            "image": "img/nuggets.jpeg"
+          },
+          {
+            "name": "Brochetas de frutas",
+            "description": " aperitivos de frutas",
+            "price": "$40",
+            "image": "img/brochetas.jpeg"
+          }
+        ]
+      },
+      {
+        "category": "Postres",
+        "items": [
+          {
+            "name": "Chocoflan",
+            "description": "chocoflan",
+            "price": "$45",
+            "image": "img/chocoflan.jpeg"
+          },
+          {
+            "name": "Carlota",
+            "description": "carlota con galleta maria original y de diferentes sabores",
+            "price": "$35",
+            "image": "img/carlota.jpeg"
+          },
+          {
+            "name": "Pay de Limon",
+            "description": " Pay de limon bien amargo pq es de limon ",
+            "price": "$35",
+            "image": "img/pay.jpeg"
+          },
+          {
+            "name": "Fresas con crema",
+            "description": " Fresas con crema de dona vicky receta facil ",
+            "price": "$35",
+            "image": "img/fcc.jpeg"
+          },
+          {
+            "name": "Gelatina",
+            "description": "Gelatinas de muchos sabores ",
+            "price": "$30",
+            "image": "img/gelatina.jpeg"
+          },
+          {
+            "name": "Helado",
+            "description": "Nievecita de fresa chocolate o vainilla ",
+            "price": "$25",
+            "image": "img/helado.jpeg"
+          }
+        ]
+      }
+    ]
+}
